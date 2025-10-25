@@ -1,0 +1,33 @@
+# data & models (keep out of git)
+Avoma/trainingandtestdata/
+Avoma/sentiment_project/data/
+**/data/
+**/datasets/
+**/training*/
+**/models/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.pt
+*.pkl
+*.joblib
+
+# macOS junk from the ZIP
+__MACOSX/
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# venvs
+.venv/
+env/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
